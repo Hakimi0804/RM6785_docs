@@ -9,8 +9,8 @@ Simply run the following: `./mtk payload` and voila! You can now use SP Flash to
 Fastboot is inaccessible? mtkclient to the rescue!
 
 With mtkclient, you can flash partitions from BROM, just like SP Flash tool except that:
-    - It does not depend on scatter file, this mean you can flash to any partitions, none of them will be hidden. On SP Flash tool, some partitions may be hidden depending on the scatter file.
-    - Be careful since you can flash to the wrong partition and potentially hard-brick your device.
+- It does not depend on scatter file, this mean you can flash to any partitions, none of them will be hidden. On SP Flash tool, some partitions may be hidden depending on the scatter file.
+- Be careful since you can flash to the wrong partition and potentially hard-brick your device.
 
 Let's move on to the guide.
 
